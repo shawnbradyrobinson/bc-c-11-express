@@ -1,8 +1,1 @@
-
-        [    
-            {
-                "title": "Reina",
-                "text": "Arwen"
-            }
-        ]
-        
+[{"title":"test","text":"text","id":"0000"},{"title":"Gabriela","text":"Robinson","note_id":"c85e"},{"title":"Shawn","text":"Testing","id":"1a1b"},{"title":"New","text":"One","id":"6206"},{"title":"Coding","text":"class","id":"99b1"},{"title":"Shawn","text":"Robinson Again","id":"3293"},{"title":"New","text":"Note","id":"fc99"},{"title":"Super","text":"new","id":"a470"},{"title":"ANother another","text":"new note ","id":"740c"},{"title":"FINAL ","text":"TEST","id":"29d4"}]
