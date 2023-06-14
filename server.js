@@ -4,7 +4,7 @@ const path = require("path");
 const notesData = require("./db/db.json");
 const uuid = require("./helpers/uuid");
 //The PORT is going to have to be switched out with some .env thing --- need to look that up again. 
-const PORT = 3001; 
+const port = process.env.PORT || 3001 ; 
 const fs = require("fs");
 const app = express();
 
@@ -64,7 +64,7 @@ app.post("/api/notes", (req, res) =>{
 })
 
 
-app.listen(PORT, () => {
-    console.log(`Server listening at http://localhost:${PORT}`);
+app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
 })
 
